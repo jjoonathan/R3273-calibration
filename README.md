@@ -5,11 +5,11 @@ This is some code I wrote to calibrate my pair of Advantest R3273 spectrum analy
 <img src="r3273-714.jpeg" width="400"><img src="r3273-993.jpeg" width="400">
 
 
-# EEPROM
+# EEPROM Notes
 
 The first step is to obtain read/write capability in the metrology EEPROM. This is stored on a small chip on the interior-facing side of the metrology deck, and I updated it the hard way, by taking measurements, removing the deck, programming the chip, replacing it, and verifying that (thankfully) the act of replacing the deck did not meaningfully degrade the calibration. When connectors with metal mating surfaces are used with proper torque wrenches, it appears that they are somewhat repeatable after all.
 
-That said, if I were doing this again I would pay attention to the recent discoveries of GPIB $R/$W commands on the Advantest mailing list. Using these is likely to be easier and to produce fewer sources of assembly/disassembly variation.
+That said, if I were doing this again I would pay attention to the recent discoveries of GPIB $R/$W commands on the Advantest mailing list. Using these is likely to be easier and to produce fewer sources of assembly/disassembly variation, small as they may be.
 
 <img src="rfdeck_left.jpg" width="400"><img src="rfdeck_center_EEPROM.jpg" width="400">
 
