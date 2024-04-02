@@ -2,8 +2,7 @@
 
 This is some code I wrote to calibrate my pair of Advantest R3273 spectrum analyzers. Hopefully other R3273 owners find it helpful as well!
 
-<img src="r3273-714.jpeg" width="400">
-<img src="r3273-993.jpeg" width="400">
+<img src="r3273-714.jpeg" width="400"><img src="r3273-993.jpeg" width="400">
 
 
 # EEPROM
@@ -12,8 +11,7 @@ The first step is to obtain read/write capability in the metrology EEPROM. This 
 
 That said, if I were doing this again I would pay attention to the recent discoveries of GPIB $R/$W commands on the Advantest mailing list. Using these is likely to be easier and to produce fewer sources of assembly/disassembly variation.
 
-<img src="rfdeck_left.jpg" width="400">
-<img src="rfdeck_center_EEPROM.jpg" width="400">
+<img src="rfdeck_left.jpg" width="400"><img src="rfdeck_center_EEPROM.jpg" width="400">
 
 # Files
 
