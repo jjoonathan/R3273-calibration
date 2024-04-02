@@ -2,8 +2,8 @@
 
 This is some code I wrote to calibrate my pair of Advantest R3273 spectrum analyzers. Hopefully other R3273 owners find it helpful as well!
 
-<img src="r3273-714.jpg" width="400">
-<img src="r3273-993.jpg" width="400">
+<img src="r3273-714.jpeg" width="400">
+<img src="r3273-993.jpeg" width="400">
 
 
 # EEPROM
