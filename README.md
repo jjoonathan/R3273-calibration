@@ -13,6 +13,10 @@ That said, if I were doing this again I would pay attention to the recent discov
 
 <img src="rfdeck_left.jpg" width="400"><img src="rfdeck_center_EEPROM.jpg" width="400">
 
+The EEPROM write protect switch is under this panel:
+
+<img src="r3273-eeprom-protect.jpeg" width="400">
+
 # Calibraiton Notes
 
 This calibration only does a level calibration. I believe (it has been a few years) coarse YIG tuning can be performed in the system calibration menu opened with Shift+Format/Window+882323+Hz. Fine tuning might happen using "field5" in r3273.py, but I don't really know. If you figure it out, you may also be interested in the "YTF Optimization" section of [my 8560E calibration](https://github.com/jjoonathan/8560E-Calibration/blob/main/HP8560SweepResults.py), which computes a smooth YIG trajectory from raw 2D measurements of the form yig_attenuation_dB(coarse_freq,dac_setting). Good luck, have fun, and let me know how it goes!
